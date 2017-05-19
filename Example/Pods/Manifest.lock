@@ -1,0 +1,16 @@
+PODS:
+  - QYUtils (0.1.0)
+
+DEPENDENCIES:
+  - QYUtils (from `../`)
+
+EXTERNAL SOURCES:
+  QYUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QYUtils: 13c6a33fb4ece4e837602ac6b43d31b67df162f9
+
+PODFILE CHECKSUM: b808ad864325e38933206b8c9723bb197e90258e
+
+COCOAPODS: 1.2.1

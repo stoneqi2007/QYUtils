@@ -1,0 +1,6 @@
+framework module Pods_QYUtils_Example {
+  umbrella header "Pods-QYUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
