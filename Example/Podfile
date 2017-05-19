@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYUtils_Example' do
+  pod 'QYUtils', :path => '../'
+
+  target 'QYUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
