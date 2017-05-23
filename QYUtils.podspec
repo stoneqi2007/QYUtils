@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QYUtils'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QYUtils.'
+  s.summary          = 'Utils Fundamentals'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '这个库是一些常用工具类的封装，包括一些常用类的扩展'
 
   s.homepage         = 'https://github.com/stoneqi2007/QYUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,12 +29,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QYUtils/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'QYUtils' => ['QYUtils/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit'
+  s.requires_arc = true
   # s.dependency 'AFNetworking', '~> 2.3'
 end
