@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		01109F5C9EB22BD5DE4E59D914E38208 /* Pods-QYUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722E7155BB54641917B730BBE82AD9F /* Pods-QYUtils_Example-dummy.m */; };
+		0A3945C4909895CC912D1606E7D4A7B7 /* QYUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4650C7175CC52EA25A160C461A9C9C39 /* QYUtils-dummy.m */; };
 		133FB34A3517DAB7C6862912B312E5C6 /* Pods-QYUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0C9499C0C9F1488BFECD16AE44CEBD /* Pods-QYUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321CB655B076381BE03C628EBDF0CBEE /* QYUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE18085DD6792B45DB04AF51DB3F04 /* QYUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D05BD71D9E96E7459007D6E538E612B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		44AF06BF71F83A2B218DB8C7A84D92CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		60DAA3711ED59268004F3A12 /* NSArray+SafeBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DAA36F1ED59268004F3A12 /* NSArray+SafeBounds.h */; };
-		60DAA3721ED59268004F3A12 /* NSArray+SafeBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DAA3701ED59268004F3A12 /* NSArray+SafeBounds.m */; };
+		49C034054DF88E2F6A2CF960D451A2E7 /* NSArray+SafeBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B17D432C513148F7304EAAFA2DAA7 /* NSArray+SafeBounds.m */; };
 		6528D75D55410EFBDB99A85767A77FA3 /* Pods-QYUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B30B25DB709E1E72C44C0DAFD99B3D74 /* Pods-QYUtils_Tests-dummy.m */; };
-		6882F6E1F1891547DFA5C4FA46ECC9CD /* QYUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4650C7175CC52EA25A160C461A9C9C39 /* QYUtils-dummy.m */; };
+		A39CBA5DCC22B998E2BABFE538F9722A /* NSArray+SafeBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFBA668303E9249477BB617F2C452A8 /* NSArray+SafeBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3BD40681DCBA2822F320D8066343ACD /* Pods-QYUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 077826E703857D651126CE793F3CF0FD /* Pods-QYUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB1901F609A3840014FE13BAAA7C4348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F953B5CE57881C49FC17CD5DEE63ECC1 /* QYUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE18085DD6792B45DB04AF51DB3F04 /* QYUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,35 +35,35 @@
 		08814C45F518BD5F9C94AD8D8B8CC857 /* Pods-QYUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B394E27F3DE9A271B5986FAF20DC85D /* Pods-QYUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2ADEF8293DF2B6C7B2AF7EB9853ADAA4 /* Pods-QYUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2CBB54438729CD5A63E3F154E14275CF /* QYUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QYUtils.modulemap; sourceTree = "<group>"; };
+		2CBB54438729CD5A63E3F154E14275CF /* QYUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QYUtils.modulemap; sourceTree = "<group>"; };
 		3722E7155BB54641917B730BBE82AD9F /* Pods-QYUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYUtils_Example-dummy.m"; sourceTree = "<group>"; };
-		373E17CC911A99E14658A631BD598A7A /* Pods_QYUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373E17CC911A99E14658A631BD598A7A /* Pods_QYUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYUtils_Tests.framework; path = "Pods-QYUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D120A48FC62F23064D5FC15E23B2F5 /* QYUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYUtils.xcconfig; sourceTree = "<group>"; };
 		4650C7175CC52EA25A160C461A9C9C39 /* QYUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYUtils-dummy.m"; sourceTree = "<group>"; };
+		4BFBA668303E9249477BB617F2C452A8 /* NSArray+SafeBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeBounds.h"; sourceTree = "<group>"; };
 		55FE18085DD6792B45DB04AF51DB3F04 /* QYUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUtils-umbrella.h"; sourceTree = "<group>"; };
 		59E2DA16B0893C5F445DCDCBBD03D7A9 /* Pods-QYUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		5A0C9499C0C9F1488BFECD16AE44CEBD /* Pods-QYUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		5D8B1335F1152F38ABFAC2195FB6DE6F /* Pods_QYUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60DAA36F1ED59268004F3A12 /* NSArray+SafeBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeBounds.h"; sourceTree = "<group>"; };
-		60DAA3701ED59268004F3A12 /* NSArray+SafeBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeBounds.m"; sourceTree = "<group>"; };
+		5D8B1335F1152F38ABFAC2195FB6DE6F /* Pods_QYUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYUtils_Example.framework; path = "Pods-QYUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CF22BC60F986A0F6F47D9DFFC00AFB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7251F0143A606BC3043754AE7C2EAE03 /* Pods-QYUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7A2F137CF1305A0E4FC28B3F84B048A2 /* QYUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QYUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2F137CF1305A0E4FC28B3F84B048A2 /* QYUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYUtils.framework; path = QYUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2F6A2ABDA350D58E3F30EE77EF735C /* QYUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYUtils-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971BD66E34429EADDF9331E9EC972C73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999C1A4FA930A27C1FDFE2EE0E90CD21 /* Pods-QYUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CF1DF4FFBDF0DC897E3B89DC2E3ABDA /* Pods-QYUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9D4380FB7C40B3568A586F8C696A730 /* Pods-QYUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B30B25DB709E1E72C44C0DAFD99B3D74 /* Pods-QYUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		B32B17D432C513148F7304EAAFA2DAA7 /* NSArray+SafeBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeBounds.m"; sourceTree = "<group>"; };
 		BCEA072DC173B8ABEAB90A754D12C6DF /* Pods-QYUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5C51D68194430D5967E0446EFF68C86 /* Pods-QYUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		E224DC4CD12FDFB769EB19F69E12B27E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E41B7A4DD2AACCC03CDC0A0DACA5C3E6 /* Pods-QYUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QYUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		E41B7A4DD2AACCC03CDC0A0DACA5C3E6 /* Pods-QYUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QYUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		E8B8327A92DE912882540066456140D5 /* Pods-QYUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F504A4E82A9A93CC6EC92D9CE6C35E2F /* Pods-QYUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FBD06AB74C92F326F86179119B8BC4BB /* Pods-QYUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QYUtils_Example.modulemap"; sourceTree = "<group>"; };
+		FBD06AB74C92F326F86179119B8BC4BB /* Pods-QYUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QYUtils_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099A339C77F6CB8883A47DD0E09F72BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BFBA668303E9249477BB617F2C452A8 /* NSArray+SafeBounds.h */,
+				B32B17D432C513148F7304EAAFA2DAA7 /* NSArray+SafeBounds.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		206B7F87D21E3755C23A0443E2F7D908 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +111,6 @@
 				AA3E87EE4085BBEA85C18D0CC72AADCF /* Pods-QYUtils_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		29CBA5490695EE2AEFC3389ACB26B8C4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				60DAA36F1ED59268004F3A12 /* NSArray+SafeBounds.h */,
-				60DAA3701ED59268004F3A12 /* NSArray+SafeBounds.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		3A5E6F5E1DE937B140934635C0A064B3 /* Development Pods */ = {
@@ -120,22 +121,23 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		3C07F0B3C5423E328105465CFC2BDC17 /* QYUtils */ = {
+			isa = PBXGroup;
+			children = (
+				099A339C77F6CB8883A47DD0E09F72BF /* Classes */,
+			);
+			name = QYUtils;
+			path = QYUtils;
+			sourceTree = "<group>";
+		};
 		3FB95AAE6D85089C03893C1E011C10B1 /* QYUtils */ = {
 			isa = PBXGroup;
 			children = (
-				48BC05026E0709AF44E6A085383BF13D /* QYUtils */,
+				3C07F0B3C5423E328105465CFC2BDC17 /* QYUtils */,
 				E05FB27D7AA86C486DAF056435A3EE27 /* Support Files */,
 			);
 			name = QYUtils;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		48BC05026E0709AF44E6A085383BF13D /* QYUtils */ = {
-			isa = PBXGroup;
-			children = (
-				29CBA5490695EE2AEFC3389ACB26B8C4 /* Classes */,
-			);
-			path = QYUtils;
 			sourceTree = "<group>";
 		};
 		62414A721DAC8E6FDAF99565EEB08DFC /* Products */ = {
@@ -233,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				133FB34A3517DAB7C6862912B312E5C6 /* Pods-QYUtils_Example-umbrella.h in Headers */,
-				60DAA3711ED59268004F3A12 /* NSArray+SafeBounds.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,11 +246,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB560A0F8A15640986848797B0CF62D2 /* Headers */ = {
+		8C12223DE7F7D62CAE1D8862AB7E77A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F953B5CE57881C49FC17CD5DEE63ECC1 /* QYUtils-umbrella.h in Headers */,
+				A39CBA5DCC22B998E2BABFE538F9722A /* NSArray+SafeBounds.h in Headers */,
+				321CB655B076381BE03C628EBDF0CBEE /* QYUtils-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +262,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27467BA6397579DCBA21B2222004537A /* Build configuration list for PBXNativeTarget "QYUtils" */;
 			buildPhases = (
-				45AD18C20F7056FDE489DBA2827F5E15 /* Sources */,
+				286DFE22D89852625860AA233EA8DA33 /* Sources */,
 				5D2988BD352EB5807647D9B2CC4CDABD /* Frameworks */,
-				FB560A0F8A15640986848797B0CF62D2 /* Headers */,
+				8C12223DE7F7D62CAE1D8862AB7E77A8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -337,11 +339,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45AD18C20F7056FDE489DBA2827F5E15 /* Sources */ = {
+		286DFE22D89852625860AA233EA8DA33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6882F6E1F1891547DFA5C4FA46ECC9CD /* QYUtils-dummy.m in Sources */,
+				49C034054DF88E2F6A2CF960D451A2E7 /* NSArray+SafeBounds.m in Sources */,
+				0A3945C4909895CC912D1606E7D4A7B7 /* QYUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DAA3721ED59268004F3A12 /* NSArray+SafeBounds.m in Sources */,
 				01109F5C9EB22BD5DE4E59D914E38208 /* Pods-QYUtils_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

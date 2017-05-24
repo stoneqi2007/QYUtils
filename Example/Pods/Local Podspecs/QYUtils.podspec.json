@@ -1,8 +1,8 @@
 {
   "name": "QYUtils",
-  "version": "0.1.0",
-  "summary": "A short description of QYUtils.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "Utils Fundamentals",
+  "description": "这个库是一些常用工具类的封装，包括一些常用类的扩展",
   "homepage": "https://github.com/stoneqi2007/QYUtils",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/stoneqi2007/QYUtils.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QYUtils/Classes/**/*"
+  "source_files": "QYUtils/Classes/**/*",
+  "requires_arc": true
 }
