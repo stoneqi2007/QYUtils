@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1D3311C5096E048752D330D3 /* Pods-QYUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYUtils_Example/Pods-QYUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		359E1A641C40608A1A093E4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		359E1A641C40608A1A093E4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QYUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		68357D483D8AF4D2B1BFA624 /* Pods-QYUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYUtils_Tests/Pods-QYUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AD6A82B7FD857E1D614DFEB /* Pods-QYUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYUtils_Example/Pods-QYUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6BDE52D3120CD1089E1E3815 /* Pods_QYUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7100F5582861A2BD288A91DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7100F5582861A2BD288A91DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3D96B320CC214AFEF381631 /* Pods-QYUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYUtils_Tests/Pods-QYUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BD527AC98CD521FC2EC8DB2E /* QYUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QYUtils.podspec; path = ../QYUtils.podspec; sourceTree = "<group>"; };
+		BD527AC98CD521FC2EC8DB2E /* QYUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYUtils.podspec; path = ../QYUtils.podspec; sourceTree = "<group>"; };
 		FB91F63898CCD8B5F5BF00E9 /* Pods_QYUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

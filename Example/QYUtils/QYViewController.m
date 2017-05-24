@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *testArray = @[@"a",@"b",@"c"];
+    NSLog(@"%@",testArray[4]);
+    
+    NSMutableArray *testMArray = [[NSMutableArray alloc]init];
+    [testMArray addObject:@"a"];
+    [testMArray addObject:@"b"];
+    NSLog(@"%@",testMArray[5]);
+    
 }
 
 - (void)didReceiveMemoryWarning
