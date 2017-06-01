@@ -19,6 +19,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self testSafeBoundsArray];
     [self testArrayUtils];
+    [self testBundleUtils];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,8 +42,39 @@
 
 //NSArray+QYUtils
 - (void)testArrayUtils {
-//    NSArray *testArray = @[@(1),@(2),@(3),@(4),@(5),@(6),@(7)];
+    NSArray *testArray = @[@(1),@(2),@(3),@(4),@(5),@(6),@(7)];
     
+    NSArray *filterArray = [testArray qy_filter:^BOOL(NSNumber *object) {
+        if ([object integerValue] > 5) {
+            return YES;
+        }
+        return NO;
+    }];
+    NSLog(@"filterArray = %@",filterArray);
+    
+    NSArray *mapArray = [testArray qy_map:^id _Nonnull(NSNumber *object) {
+        return @(object.integerValue + 5);
+    }];
+    NSLog(@"mapArray = %@",mapArray);
+    
+    NSNumber *object = [testArray qy_findObject:^BOOL(NSNumber *object) {
+        if (object.integerValue == 5) {
+            return YES;
+        }
+        return NO;
+    }];
+    NSLog(@"findObject = %@",object);
+}
+
+- (void)testBundleUtils {
+//    NSString *bundleVersion = [[NSBundle mainBundle] qy_bundleVersion];
+//    NSLog(@"bundleVersion = %@",bundleVersion);
+//    
+//    NSString *bundleName = [[NSBundle mainBundle] qy_bundleName];
+//    NSLog(@"bundleName = %@",bundleName);
+//    
+//    NSString *bundleDisplayName = [[NSBundle mainBundle] qy_bundleDisplayName];
+//    NSLog(@"bundleDisplayName = %@",bundleDisplayName);
 }
 
 @end

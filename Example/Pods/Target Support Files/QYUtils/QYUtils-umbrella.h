@@ -12,6 +12,10 @@
 
 #import "NSArray+QYUtils.h"
 #import "NSArray+SafeBounds.h"
+#import "NSBundle+QYUtils.h"
+#import "NSDate+QYUtils.h"
+#import "NSDictionary+QYUtils.h"
+#import "NSIndexSet+QYUtils.h"
 
 FOUNDATION_EXPORT double QYUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYUtilsVersionString[];
