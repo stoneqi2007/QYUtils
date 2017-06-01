@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSArray+QYUtils.h"
 #import "NSArray+SafeBounds.h"
 
 FOUNDATION_EXPORT double QYUtilsVersionNumber;
