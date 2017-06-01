@@ -46,7 +46,7 @@
 
 @implementation NSMutableArray (SafeBounds)
 
-+ (void)load{
++ (void)load {
     [super load];
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{  //方法交换只要一次就好
@@ -55,7 +55,8 @@
         method_exchangeImplementations(oldObjectAtIndex, newObjectAtIndex);
     });
 }
-- (id)__safe__objectAtIndex:(NSUInteger)index{
+
+- (id)__safe__objectAtIndex:(NSUInteger)index {
     if (index > self.count - 1 || !self.count){
         @try {
             return [self __safe__objectAtIndex:index];
@@ -65,8 +66,7 @@
         } @finally {
             
         }
-    }
-    else{
+    } else{
         return [self __safe__objectAtIndex:index];
     }
 }
