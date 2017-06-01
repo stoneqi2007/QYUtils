@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveObjC/ReactiveObjC.h>
+
+@class RACSignal;
 
 NS_ASSUME_NONNULL_BEGIN
 

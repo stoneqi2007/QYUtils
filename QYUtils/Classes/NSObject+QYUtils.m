@@ -8,6 +8,7 @@
 
 #import "NSObject+QYUtils.h"
 #import "NSArray+QYUtils.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @implementation NSObject (QYUtils)
 
