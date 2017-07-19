@@ -99,6 +99,10 @@
 		60F254A51F1DF09500EBF835 /* UIApplication+QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F254A31F1DF09500EBF835 /* UIApplication+QYUtils.m */; };
 		60F254A81F1E0A0200EBF835 /* UIColor+QYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F254A61F1E0A0200EBF835 /* UIColor+QYUtils.h */; };
 		60F254A91F1E0A0200EBF835 /* UIColor+QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F254A71F1E0A0200EBF835 /* UIColor+QYUtils.m */; };
+		60F254AC1F1EFA1900EBF835 /* UIImage+QYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F254AA1F1EFA1900EBF835 /* UIImage+QYUtils.h */; };
+		60F254AD1F1EFA1A00EBF835 /* UIImage+QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F254AB1F1EFA1900EBF835 /* UIImage+QYUtils.m */; };
+		60F254B01F1F36AD00EBF835 /* UIImage+QYGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F254AE1F1F36AD00EBF835 /* UIImage+QYGIF.h */; };
+		60F254B11F1F36AD00EBF835 /* UIImage+QYGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F254AF1F1F36AD00EBF835 /* UIImage+QYGIF.m */; };
 		6528D75D55410EFBDB99A85767A77FA3 /* Pods-QYUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B30B25DB709E1E72C44C0DAFD99B3D74 /* Pods-QYUtils_Tests-dummy.m */; };
 		65D765FC6DB832E5E6BBC53774E9B802 /* RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 510347A9383B5F162F23F93B4E331787 /* RACCommand.m */; };
 		67E8D02AF234453B05C989763E1ED8CF /* NSBundle+QYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 807022648FF0CEC4D70A968509D51A64 /* NSBundle+QYUtils.m */; };
@@ -371,6 +375,10 @@
 		60F254A31F1DF09500EBF835 /* UIApplication+QYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+QYUtils.m"; sourceTree = "<group>"; };
 		60F254A61F1E0A0200EBF835 /* UIColor+QYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QYUtils.h"; sourceTree = "<group>"; };
 		60F254A71F1E0A0200EBF835 /* UIColor+QYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QYUtils.m"; sourceTree = "<group>"; };
+		60F254AA1F1EFA1900EBF835 /* UIImage+QYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYUtils.h"; sourceTree = "<group>"; };
+		60F254AB1F1EFA1900EBF835 /* UIImage+QYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYUtils.m"; sourceTree = "<group>"; };
+		60F254AE1F1F36AD00EBF835 /* UIImage+QYGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYGIF.h"; sourceTree = "<group>"; };
+		60F254AF1F1F36AD00EBF835 /* UIImage+QYGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYGIF.m"; sourceTree = "<group>"; };
 		65B1EFBBD685748FD9A81E2FDEB32B68 /* RACEagerSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEagerSequence.h; path = ReactiveObjC/RACEagerSequence.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66D57EC3A73E434BFB70E65F1395FE55 /* UISlider+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+RACSignalSupport.h"; path = "ReactiveObjC/UISlider+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -919,6 +927,10 @@
 				60F254A31F1DF09500EBF835 /* UIApplication+QYUtils.m */,
 				60F254A61F1E0A0200EBF835 /* UIColor+QYUtils.h */,
 				60F254A71F1E0A0200EBF835 /* UIColor+QYUtils.m */,
+				60F254AA1F1EFA1900EBF835 /* UIImage+QYUtils.h */,
+				60F254AB1F1EFA1900EBF835 /* UIImage+QYUtils.m */,
+				60F254AE1F1F36AD00EBF835 /* UIImage+QYGIF.h */,
+				60F254AF1F1F36AD00EBF835 /* UIImage+QYGIF.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1064,7 +1076,9 @@
 				60F254A81F1E0A0200EBF835 /* UIColor+QYUtils.h in Headers */,
 				607445B91EE003FD004453E4 /* NSObject+QYUtils.h in Headers */,
 				607445C11EE011C0004453E4 /* NSString+QYUtils.h in Headers */,
+				60F254B01F1F36AD00EBF835 /* UIImage+QYGIF.h in Headers */,
 				60F2549C1F1DEC0700EBF835 /* QYTouchableScrollView.h in Headers */,
+				60F254AC1F1EFA1900EBF835 /* UIImage+QYUtils.h in Headers */,
 				60F254A41F1DF09500EBF835 /* UIApplication+QYUtils.h in Headers */,
 				9F560D14D3FF1CF1F18851B5941DA85A /* Pods-QYUtils_Example-umbrella.h in Headers */,
 			);
@@ -1289,6 +1303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F254B11F1F36AD00EBF835 /* UIImage+QYGIF.m in Sources */,
+				60F254AD1F1EFA1A00EBF835 /* UIImage+QYUtils.m in Sources */,
 				607445BE1EE00C19004453E4 /* NSRegularExpression+QYUtils.m in Sources */,
 				60F2549D1F1DEC0700EBF835 /* QYTouchableScrollView.m in Sources */,
 				60F254A51F1DF09500EBF835 /* UIApplication+QYUtils.m in Sources */,

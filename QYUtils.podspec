@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYUtils'
-  s.version          = '0.8.2'
+  s.version          = '0.8.3'
   s.summary          = 'Utils Fundamentals'
 
 # This description is used to generate tags and improve search results.
