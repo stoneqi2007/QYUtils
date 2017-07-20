@@ -1,6 +1,6 @@
 {
   "name": "QYUtils",
-  "version": "0.4.0",
+  "version": "0.8.5",
   "summary": "Utils Fundamentals",
   "description": "这个库是一些常用工具类的封装，包括一些常用类的扩展",
   "homepage": "https://github.com/stoneqi2007/QYUtils",
@@ -13,11 +13,16 @@
   },
   "source": {
     "git": "https://github.com/stoneqi2007/QYUtils.git",
-    "tag": "0.4.0"
+    "tag": "0.8.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "QYUtils/Classes/**/*",
-  "requires_arc": true
+  "requires_arc": true,
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ]
+  }
 }

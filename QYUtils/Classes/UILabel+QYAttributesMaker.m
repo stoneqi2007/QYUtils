@@ -11,25 +11,11 @@
 
 @implementation UILabel (QYAttributesMaker)
 
-//+ (UILabel *)qy_makeAttributes:(void (^)(UILabel *))attributesMaker {
-//    UILabel *label = [[UILabel alloc] init];
-//    attributesMaker(label);
-//    return label;
-//}
-
-//- (UILabel *(^)(CGRect))qy_frame {
-//    return ^(CGRect rect) {
-//        self.frame = rect;
-//        return self;
-//    };
-//}
-//
-//- (UILabel *(^)(UIView *))qy_superView {
-//    return ^(UIView *view) {
-//        [view addSubview:self];
-//        return self;
-//    };
-//}
++ (UILabel *)qy_makeAttributes:(void (^)(UILabel *))attributesMaker {
+    UILabel *label = [[UILabel alloc] init];
+    attributesMaker(label);
+    return label;
+}
 
 - (UILabel *(^)(UIFont *))qy_font {
     return ^(UIFont *font) {
@@ -65,20 +51,6 @@
         return self;
     };
 }
-
-//- (UILabel *(^)(UIColor *))qy_backgroundColor {
-//    return ^(UIColor *color) {
-//        self.backgroundColor = color;
-//        return self;
-//    };
-//}
-//
-//- (UILabel *(^)(NSUInteger))qy_backgroundColorHex {
-//    return ^(NSUInteger hex) {
-//        self.backgroundColor = [UIColor qy_colorWithHex:hex];
-//        return self;
-//    };
-//}
 
 - (UILabel *(^)(NSString *))qy_text {
     return ^(NSString *text) {

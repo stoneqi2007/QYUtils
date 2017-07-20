@@ -20,6 +20,7 @@
     [self testSafeBoundsArray];
     [self testArrayUtils];
     [self testBundleUtils];
+    [self testAttributeMakerUtils];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -75,6 +76,12 @@
 //    
 //    NSString *bundleDisplayName = [[NSBundle mainBundle] qy_bundleDisplayName];
 //    NSLog(@"bundleDisplayName = %@",bundleDisplayName);
+}
+
+- (void)testAttributeMakerUtils {
+    [UILabel qy_makeAttributes:^(UILabel *label) {
+        label.qy_frame(CGRectMake(0, 0, 100, 200)).qy_superView(self.view).qy_backgroundColor([UIColor redColor]);
+    }];
 }
 
 @end

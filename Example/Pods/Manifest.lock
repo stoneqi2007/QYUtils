@@ -1,5 +1,6 @@
 PODS:
-  - QYUtils (0.4.0)
+  - QYUtils (0.8.5):
+    - ReactiveObjC
   - ReactiveObjC (3.0.0)
 
 DEPENDENCIES:
@@ -8,10 +9,10 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   QYUtils:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  QYUtils: 9406ed7a97df0ff8764a680dc363a26c37953da9
+  QYUtils: 49ccf0e4a85d93afc29e135ab6f038decde1bcef
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
 
 PODFILE CHECKSUM: 752e3130b91bbb888d77c39acb6b51f9cf7a57ff

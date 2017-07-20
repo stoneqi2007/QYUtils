@@ -10,17 +10,13 @@
 
 @interface UILabel (QYAttributesMaker)
 
-//+ (UILabel *)qy_makeAttributes:(void(^)(UILabel *))attributesMaker;
++ (UILabel *)qy_makeAttributes:(void(^)(UILabel *))attributesMaker;
 
-//- (UILabel *(^)(CGRect))qy_frame;
-//- (UILabel *(^)(UIView *))qy_superView;
 - (UILabel *(^)(UIFont *))qy_font;
 - (UILabel *(^)(CGFloat))qy_systemFont;
 - (UILabel *(^)(CGFloat))qy_boldSystemFont;
 - (UILabel *(^)(UIColor *))qy_texColor;
 - (UILabel *(^)(NSUInteger))qy_textColorHex;
-//- (UILabel *(^)(UIColor *))qy_backgroundColor;
-//- (UILabel *(^)(NSUInteger))qy_backgroundColorHex;
 - (UILabel *(^)(NSString *))qy_text;
 - (UILabel *(^)(NSTextAlignment))qy_texAlignment;
 - (UILabel *(^)(NSInteger))qy_numberOfLines;
