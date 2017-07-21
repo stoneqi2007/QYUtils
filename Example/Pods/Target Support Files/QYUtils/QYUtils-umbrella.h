@@ -27,7 +27,10 @@
 #import "UIImage+QYGIF.h"
 #import "UIImage+QYUtils.h"
 #import "UILabel+QYAttributesMaker.h"
+#import "UIScrollView+QYPage.h"
+#import "UIScrollView+QYUtils.h"
 #import "UIView+QYAttributesMaker.h"
+#import "UIView+QYUtils.h"
 
 FOUNDATION_EXPORT double QYUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char QYUtilsVersionString[];

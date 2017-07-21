@@ -1,5 +1,7 @@
 PODS:
-  - QYUtils (0.8.5):
+  - Masonry (1.0.2)
+  - QYUtils (0.8.7):
+    - Masonry
     - ReactiveObjC
   - ReactiveObjC (3.0.0)
 
@@ -12,7 +14,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QYUtils: 49ccf0e4a85d93afc29e135ab6f038decde1bcef
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  QYUtils: e392af7932d853bf708c80d6421303ee3c2cc237
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
 
 PODFILE CHECKSUM: 752e3130b91bbb888d77c39acb6b51f9cf7a57ff

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYUtils'
-  s.version          = '0.8.7'
+  s.version          = '1.0.0'
   s.summary          = 'Utils Fundamentals'
 
 # This description is used to generate tags and improve search results.
@@ -37,4 +37,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit'
   s.requires_arc = true
   s.dependency "ReactiveObjC"
+  s.dependency "Masonry"
 end
